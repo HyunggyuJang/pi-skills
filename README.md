@@ -28,6 +28,7 @@ Each skill follows the pi/Claude Code format:
 
 ```markdown
 ---
+name: skill-name
 description: Short description shown to agent
 ---
 
