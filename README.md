@@ -6,7 +6,7 @@ A collection of skills for [pi-coding-agent](https://github.com/badlogic/pi-mono
 
 ### pi-coding-agent
 
-pi supports recursive skill discovery, so clone the entire repo:
+[pi](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent) supports recursive skill discovery, so clone the entire repo:
 
 ```bash
 # User-level (available in all projects)
