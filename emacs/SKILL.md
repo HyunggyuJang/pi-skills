@@ -31,7 +31,7 @@ emacsclient --eval "(emacs-version)"
 ## Get Current Context
 
 ```bash
-{baseDir}/scripts/context.sh
+./scripts/context.sh
 ```
 
 Outputs JSON to stdout with:
