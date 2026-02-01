@@ -20,8 +20,10 @@
    (t nil)))
 
 (defun pi-emacs--candidate-buffers ()
-  (or (pi-emacs--persp-buffers (pi-emacs--maybe-persp))
-      (buffer-list)))
+  (cl-remove-if-not
+   #'buffer-live-p
+   (or (pi-emacs--persp-buffers (pi-emacs--maybe-persp))
+       (buffer-list))))
 
 (defun pi-emacs--buffer-with-active-region ()
   (cl-find-if (lambda (buf)
